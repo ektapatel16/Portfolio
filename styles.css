@@ -1,0 +1,158 @@
+/*============= Body ==================*/
+body{
+    margin: 0;
+    font-size: 0.9em; 
+    line-height: 1.4;
+    color: antiquewhite;
+}
+/*============= Header only ================*/
+header{ 
+    background-image: url("./Images/background1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 5% 5% 13%;
+    overflow: hidden;
+}
+/*============= Tags ================*/
+span{
+    font-style:italic;
+    font-size: 18px;
+}
+
+img{
+    width:5%;
+}
+
+section{
+    width:86%;
+    margin: 10%;
+    font-family:"Courier New",,serif;
+    color: black;
+    background-color:azure;
+    padding: 2%;
+}
+
+form input, textarea{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 30px;
+}
+
+
+
+/*============= Navigation ================*/
+nav{
+    width: 100%;
+    display: block;
+    padding-left: 40%;
+}
+
+nav ul li{
+    list-style: none;
+    float:left;
+}
+
+a{
+    padding: 30px;
+    text-decoration: none;
+    color: antiquewhite;   
+}
+/*============= Classes ==================*/
+.main{
+    background-image: url("./Images/wallpaper1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 10%;
+}
+
+.postname{
+    text-align: center;
+    margin-top: -25px;
+}
+
+.aboutme{
+    background-color: gray;
+}
+
+.study{
+    background-color: gray;
+}
+
+.skillset{
+    /* padding-bottom: 15%; */
+    background-color: azure;
+    font-family:"Courier New",,serif;
+    color: black;
+    background-color:azure;
+}
+
+.experiences{
+    background-color: gray;
+    clear: left;
+}
+
+.contact{
+    background-color: gray;
+}
+
+.title{
+    margin-top: -1%;
+    font-size: 30px;
+}
+
+.lang {
+    width:50%;
+    float: left;
+} 
+
+.description{
+    font-family:"Courier New",,serif;
+    font-size: 16px;
+    padding-left: 15%;
+    width: 75% ;
+}
+
+.w3-progress-container {
+  width:90%;
+  height:0.7em;
+  position:relative;
+  background-color:#deeef5;
+  margin-bottom: 30px;
+
+}
+
+.w3-progressbar {
+  background: rgba(34,125,170,1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=1 );
+  height:100%;
+  position:absolute;
+  line-height:inherit;
+}
+
+.w3-progress-container:hover {
+  opacity: 0.5;
+}
+
+.form-control-submit{
+    background-color: darkgrey;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 40px;
+    margin-top: 20px;
+}
