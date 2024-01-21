@@ -94,11 +94,7 @@ a{
 }
 
 .skillset{
-    /* padding-bottom: 15%; */
-    background-color: azure;
-    font-family:"Courier New",,serif;
-    color: black;
-    background-color:azure;
+    background-color: gray;
 }
 
 .experiences{
@@ -114,11 +110,6 @@ a{
     margin-top: -1%;
     font-size: 30px;
 }
-
-.lang {
-    width:50%;
-    float: left;
-} 
 
 .description{
     font-family:"Courier New",,serif;
